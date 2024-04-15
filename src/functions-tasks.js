@@ -73,7 +73,7 @@ function getArgumentsCount(funcs) {
  *
  */
 function getPowerFunction(exponent) {
-  return function (number) {
+  return function pow(number) {
     return number ** exponent;
   };
 }
